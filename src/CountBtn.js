@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function CountBtn(props) {
 
     const sendValue = () => {
-        props.changeCount(props.value);
+        props.changeCount(Number(props.value));
     }
 
     return (

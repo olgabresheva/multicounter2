@@ -1,15 +1,16 @@
 hr {
-  margin: 10px;
+    margin: 10px;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 .count {
-  margin: 15px;
+    display: inline-block;
+    margin: 1em;
 }
 
 .btn {
-  margin: 5px;
+    margin: 5px;
 }
