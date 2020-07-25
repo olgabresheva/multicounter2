@@ -35,7 +35,6 @@ function Counter() {
             <CountBtn value={'+1'} count={count} changeCount={changeCount}/>
             <button className="btn btn-outline-info btn-sm" onClick={reset}>{resetBtn}</button>
         </span>
-
     );
 }
 

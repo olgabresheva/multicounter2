@@ -24,8 +24,6 @@ function App() {
 
     return (
         <div className="App">
-
-
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
@@ -36,14 +34,11 @@ function App() {
                 </div>
                 <div className="row">
                     <div className="col-lg-6 offset-lg-3">
-                        {counterList.map((el, index) => <li key={index}>{el}
-                        </li>)}
+                        <Counter/>
+                        {counterList.map((el, index) => <li key={index}>{el}</li>)}
                     </div>
                 </div>
-
             </div>
-
-
         </div>
     );
 }

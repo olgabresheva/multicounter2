@@ -8,9 +8,14 @@ li {
 
 .count {
     display: inline-block;
-    margin: 1em;
+    width: 3rem;
+    text-align: center;
 }
 
 .btn {
-    margin: 5px;
+    margin: 1px;
+}
+
+.container {
+    padding-top: 10px;
 }
